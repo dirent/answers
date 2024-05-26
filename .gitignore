@@ -1,10 +1,6 @@
-#Maven
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-release.properties
-.flattened-pom.xml
+# Gradle
+.gradle/
+build/
 
 # Eclipse
 .project
@@ -41,6 +37,3 @@ nb-configuration.xml
 
 # Plugin directory
 /.quarkus/cli/plugins/
-/.idea/
-/target/
-/.dockerignore
