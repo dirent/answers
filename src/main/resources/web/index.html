@@ -1,13 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>Bundle Test</title>
+    <title>Hello World</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="#" />
     {#bundle /}
 </head>
 <body>
-<h1>Web Bundler with Live-Reload</h1>
-<p id="app"></p>
-<a href="index2.html">Goto INDEX2</a>
+<ul>
+    <li>Web Standards</li>
+    <li><a href="index2.html">Classes in Javascript</a></li>
+    <li><a href="cssplayground.html">CSS Playground</a></li>
+    <li><a href="htmlgame.html">HTML Game</a></li>
+    <li><a href="schwester.html">Neues von den Schwestern</a></li>
+</ul>
+<h1 id="webstandards">Hello Web Standards!</h1>
+<section>
+    <p class="content" id="detail">detailed content</p>
+</section>
+<div>
+    <input id="userhint" type="text" placeholder="user hint"/>
+    <input type="button" value="normal button"/>
+    <input type="submit" value="submit button"/>
+    <button>more flexible</button>
+    <input type="date"/>
+    <input type="time"/>
+    <input type="color"/>
+    <select multiple size="2">
+        <option value="one">ONE</option>
+        <option value="two">TWO</option>
+        <option value="three" selected>THREE</option>
+    </select>
+    <input type="radio" name="duke" value="light">HELL</input>
+    <input type="radio" name="duke" value="dark">DUNKEL</input>
+    <textarea cols="30" rows="5"></textarea>
+    <progress min="0" max="100" value="50"></progress>
+    <meter low="20" min="0" high="66" max="100" value="90"></meter>
+</div>
+<p>hello world</p>
+<p class="content" id="last">my content</p>
 </body>
 </html>

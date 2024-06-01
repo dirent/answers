@@ -1,0 +1,35 @@
+:root {
+    --corporate_background-color: #70d070;
+}
+body {
+    font-family: sans-serif;
+    height: 120vh;
+}
+p {
+    background-color: var(--corporate_background-color);
+    max-width: 80vw;
+}
+section {
+    font-size: 24px;
+}
+.content {
+    background-color: silver;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 2em;
+}
+#detail {
+    background-color: var(--corporate_background-color);
+    font-weight: bold;
+    border: 5px dotted black;
+    font-size: 2rem;
+}
+.mono {
+    font-family: monospace;
+}
+#last {
+    background-color: lightcoral;
+    position: fixed;
+    top: 3em;
+    right: 1em;
+}
