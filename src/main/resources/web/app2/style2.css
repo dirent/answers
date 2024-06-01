@@ -1,0 +1,23 @@
+div {
+    background: lightgreen;
+}
+
+table {
+    padding: 1em;
+}
+
+th {
+    font-family: sans-serif;
+    text-align: left;
+    text-transform: capitalize;
+    border-bottom: darkgray 1px solid;
+    padding: 0.3em;
+}
+
+tr:nth-of-type(odd) {
+    background-color: lightblue;
+}
+
+td {
+    font-size: 0.8em;
+}
