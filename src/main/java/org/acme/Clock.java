@@ -26,7 +26,7 @@ public class Clock {
 
     @Scheduled( every="2s" )
     public void sendCurrentTime() {
-        System.out.println( "." );
+        System.out.print( "." );
         if( this.session != null  &&  this.session.isOpen() ) {
             try {
                 this.session.getBasicRemote().sendText(LocalTime.now().toString());
